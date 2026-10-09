@@ -1,0 +1,8 @@
+temp_generator_node:
+  ros__parameters:
+    is_float32: false
+    use_sim_time: true
+    left_joint_cmd_topic: "/left_wheel_joint_effort_controller/commands"
+    right_joint_cmd_topic: "/right_wheel_joint_effort_controller/commands"
+    left_cmd: 20.0
+    right_cmd: 50.0

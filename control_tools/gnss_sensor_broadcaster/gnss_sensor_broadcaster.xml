@@ -1,0 +1,9 @@
+<library path="gnss_sensor_broadcaster">
+  <class name="gnss_sensor_broadcaster/GnssSensorBroadcaster"
+         type="gnss_sensor_broadcaster::GnssSensorBroadcaster"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>
+      Broadcaster para sensores GNSS que publica dados nos tópicos NavSatFix e TwistStamped
+    </description>
+  </class>
+</library>

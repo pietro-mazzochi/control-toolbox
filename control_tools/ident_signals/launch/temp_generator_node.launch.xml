@@ -1,0 +1,9 @@
+<launch>
+    <node
+        name="temp_generator_node"
+        pkg="ident_signals"
+        exec="temp_generator_node"
+        output="screen">
+        <param from="$(find-pkg-share ident_signals)/config/temp_config.yaml" />
+    </node>
+</launch>

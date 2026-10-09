@@ -1,0 +1,27 @@
+<package format="3">
+    <name>base2joint_velocity_converter</name>
+    <version>0.0.1</version>
+    <description>Converts base velocity commands to joint velocities for a differential-drive robot.</description>
+    
+    <maintainer email="tiago.giacomelli@senairs.org.br">Tiago Giacomelli</maintainer>
+    <license>Copyright (c) 2024, ISI SIM</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <build_depend>rclcpp</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <build_depend>sensor_msgs</build_depend>
+
+    <exec_depend>rclcpp</exec_depend>
+    <exec_depend>geometry_msgs</exec_depend>
+    <exec_depend>std_msgs</exec_depend>
+    <exec_depend>sensor_msgs</exec_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+        <!-- <gazebo_ros gazebo_media_path="${prefix}/models" />
+        <gazebo_ros gazebo_model_path="${prefix}/models" />
+        <gazebo_ros gazebo_resource_path="${prefix}/models" /> -->
+      </export>
+</package>
+  

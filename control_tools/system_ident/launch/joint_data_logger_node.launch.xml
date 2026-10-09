@@ -1,0 +1,9 @@
+<launch>
+    <node 
+        name="joint_data_logger"
+        pkg="system_ident" 
+        exec="joint_data_logger" 
+        output="screen">
+        <param from="$(find-pkg-share system_ident)/config/joint_data_logger_config.yaml" />
+    </node>
+  </launch>

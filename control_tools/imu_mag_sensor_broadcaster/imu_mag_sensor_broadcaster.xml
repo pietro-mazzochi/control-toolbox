@@ -1,0 +1,18 @@
+<!-- 
+  Copyright (c) 2024, ISI SIM
+  All rights reserved.
+
+  Proprietary License
+
+  Unauthorized copying of this file, via any medium is strictly prohibited.
+The file is considered confidential. 
+-->
+
+<library path="imu_mag_sensor_broadcaster">
+  <class name="imu_mag_sensor_broadcaster/ImuMagSensorBroadcaster"
+         type="imu_mag_sensor_broadcaster::ImuMagSensorBroadcaster" base_class_type="controller_interface::ControllerInterface">
+    <description>
+      This controller publishes the readings of IMU and magnetometer sensors as sensor_msgs/Imu and sensor_msgs/MagneticField messages.
+    </description>
+  </class>
+</library>

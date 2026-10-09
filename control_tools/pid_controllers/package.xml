@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>pid_controllers</name>
+  <version>0.0.1</version>
+  <description>A ROS2 package implementing analog and digital PID controllers with derivative filter and anti-windup.</description>
+  
+  <maintainer email="tiago.giacomelli@senairs.org.br">Tiago Giacomelli</maintainer>
+  <license>Copyright (c) 2024, ISI SIM</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>pid_controllers_msgs</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

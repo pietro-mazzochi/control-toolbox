@@ -1,0 +1,11 @@
+<launch>
+  <arg name="config_file" default="$(find-pkg-share base2joint_velocity_converter)/config/joint_vel_broadcaster.yaml" />
+
+  <node pkg="base2joint_velocity_converter" exec="joint_velocity_broadcaster_node" name="left_wheel_velocity_broadcaster" output="screen">
+    <param from="$(var config_file)" />
+  </node>
+
+  <node pkg="base2joint_velocity_converter" exec="joint_velocity_broadcaster_node" name="right_wheel_velocity_broadcaster" output="screen">
+    <param from="$(var config_file)" />
+  </node>
+</launch>
