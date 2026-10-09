@@ -1,9 +1,0 @@
-stair_generator_node:
-  ros__parameters:
-    is_float32: false
-    use_sim_time: true
-    signal_frequency: 10.0
-    signal_amplitude: 30.0
-    signal_sequences: 0
-    left_joint_cmd_topic: "/left_wheel_joint_effort_controller/commands"
-    right_joint_cmd_topic: "/right_wheel_joint_effort_controller/commands"

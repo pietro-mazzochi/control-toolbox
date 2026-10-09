@@ -1,9 +1,0 @@
-<launch>
-    <node
-        name="multi_step_generator_node"
-        exec="multi_step_generator_node"
-        pkg="ident_signals"
-        output="screen">
-        <param from="$(find-pkg-share ident_signals)/config/multi_step_config.yaml" />
-    </node>
-</launch>

@@ -1,8 +1,0 @@
-<launch>
-  <arg name="config_file" default="$(find-pkg-share base2joint_velocity_converter)/config/joint_velocity_converter.yaml" />
-
-  <node pkg="base2joint_velocity_converter" exec="base2joint_velocity_converter_node" name="base2joint_velocity_converter_node" output="screen">
-    <param from="$(var config_file)" />
-  </node>
-
-</launch>

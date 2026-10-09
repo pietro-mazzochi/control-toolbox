@@ -1,8 +1,0 @@
-<launch>
-    <arg name="prefix_node_name" default="custom_name" />
-    <arg name="config_file" default="$(find-pkg-share pid_controller)/config/$(var prefix_node_name)_pid_params.yaml" />
-
-    <node name="$(var prefix_node_name)_pid_controller_node" pkg="pid_controllers" exec="digital_pid_controller_node" output="screen">
-        <param from="$(var config_file)" />
-    </node>
-</launch>

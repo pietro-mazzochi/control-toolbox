@@ -1,9 +1,0 @@
-<launch>
-    <node
-        name="stair_generator_node"
-        pkg="ident_signals"
-        exec="stair_generator_node"
-        output="screen">
-        <param from="$(find-pkg-share ident_signals)/config/stair_config.yaml" />
-    </node>
-</launch>

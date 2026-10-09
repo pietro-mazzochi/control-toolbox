@@ -1,9 +1,0 @@
-<launch>
-    <node
-        name="step_generator_node"
-        pkg="ident_signals"
-        exec="step_generator_node"
-        output="screen">
-        <param from="$(find-pkg-share ident_signals)/config/step_config.yaml" />
-    </node>
-</launch>
